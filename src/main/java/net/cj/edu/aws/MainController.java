@@ -20,7 +20,7 @@ public class MainController {
 	@GetMapping("/")
 	
 	public String home() {
-		return "<h1>Hi, aws-devops</h1>"; // 저장만 하면 재기동 됨. spring devtools를 설치해서그렇다
+		return "<h1>Hi, aws-devops CI/CD 테스트</h1>"; // 저장만 하면 재기동 됨. spring devtools를 설치해서그렇다
 	}
 	
 	@GetMapping("/date")
